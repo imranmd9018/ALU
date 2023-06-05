@@ -1,0 +1,11 @@
+This repositoty contains RTL, testbench code for an Arithmetic Logic Unit using arithmetic and logical operators.
+
+The following instructions have been taken care while writing the source code of the ALU.
+> To Write down the functionality of ALU.
+> Understand tri-state output logic.
+> Withing always@(command) begin
+  - The ALU has to perform 16 different operations using command input on 8bits input a_in and b_in.
+  - If the MSB of the command_in input is Low, then the arithmetic operations are performed.
+  - If the MSB of the command_in input is High, then the logical operations are performed.
+  - Use case construct to perform the operations.
+  - The output is of 16 bits. Input "oe" (output enable) enables the ALU. i.e., when the oe is low output is at High Impedance.
